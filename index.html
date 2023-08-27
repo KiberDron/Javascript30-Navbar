@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+
+  <title>Javascript30 Navbar</title>
+</head>
+<body>
+  <header>
+    <img class="logo" src="Assets/Logo.svg" alt="logo">
+    <nav>
+      <div class="dropdown">
+        <a class="nav-link" href="#">Products</a>
+        <div class="dropdown-content">
+          <div class="dropdown-link">
+            <img class="logo" src="Assets/Spense_Icon.svg" alt="logo">
+            <div class="dropdown-link-article">
+              <p class="dropdown-link-header">Spense</p>
+              <p class="dropdown-link-text">Spense is a landing page for writers. Great for practicing absolute positioning and flex layouts.</p>
+            </div>
+          </div>
+          <div class="dropdown-link">
+            <img class="logo" src="Assets/Fiber_Icon.svg" alt="logo">
+            <div class="dropdown-link-article">
+              <p class="dropdown-link-header">Fiber Landing Page</p>
+              <p class="dropdown-link-text">An online portfolio generator. Great for practice flex/grid layouts, and absolute positioning.</p>
+            </div>
+          </div>
+          <div class="dropdown-link">
+            <img class="logo" src="Assets/Gradie_Icon.svg" alt="logo">
+            <div class="dropdown-link-article">
+              <p class="dropdown-link-header">Gradie Sign Up Page</p>
+              <p class="dropdown-link-text">Gradie is a simple sign up page, great to practice centering layouts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="nav-link" href="#">Challenges</a>
+      <a class="nav-link" href="#">Resourses</a>
+      <a class="nav-link" href="#">Other Links</a>
+    </nav>
+    <div class="sign-in">
+      <a href="#">Sign in</a>
+      <button class="try-for-free-btn">Try for free</button>
+    </div>
+    <img class="menu-icon" id="menu-icon" src="Assets/Menu.svg" alt="menu icon">
+    <div class="expanded-menu" id="expanded-menu">
+      <div class="menu-header">
+        <p>PRODUCTS</p>
+        <img class="close-icon" id="close-icon" src="Assets/Close.svg" alt="close icon">
+      </div>
+      <div class="menu-content">
+        <div class="menu-link">
+          <img class="logo" src="Assets/Spense_Icon.svg" alt="logo">
+          <div class="menu-link-article">
+            <p class="menu-link-header">Spense</p>
+            <p class="menu-link-text">Spense is a landing page for writers. Great for practicing absolute positioning and flex layouts.</p>
+          </div>
+        </div>
+        <div class="menu-link">
+          <img class="logo" src="Assets/Fiber_Icon.svg" alt="logo">
+          <div class="menu-link-article">
+            <p class="menu-link-header">Fiber Landing Page</p>
+            <p class="menu-link-text">An online portfolio generator. Great for practice flex/grid layouts, and absolute positioning.</p>
+          </div>
+        </div>
+        <div class="menu-link">
+          <img class="logo" src="Assets/Gradie_Icon.svg" alt="logo">
+          <div class="menu-link-article">
+            <p class="menu-link-header">Gradie Sign Up Page</p>
+            <p class="menu-link-text">Gradie is a simple sign up page, great to practice centering layouts.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="main-content">
+    <div class="article">
+      <h1>Ondeck is your remote <span class="emphasized-part-h1">conference calling tool</span></h1>
+      <p>Ondeck is a service that allows you to create beautiful, online, and encrypted video calls for you and your remote team.</p>
+      <button class="try-for-free-btn">Try for free</button>
+      <div class="reviews">
+        <p>5.0 Rating based on reviews from:</p>
+        <img class="logo" src="Assets/Capterra Logo.svg" alt="logo">
+        <img class="logo" src="Assets/AlternativeTo Logo.svg" alt="logo">
+      </div>
+    </div>
+    <img class="hero-img" src="Assets/Hero Image.png" alt="hero image">
+  </div>
+  <footer>
+    <p>Trusted by 3+ million people at companies like</p>
+    <div class="footer-logos">
+      <img class="footer-logo" src="Assets/Netflix Logo.svg" alt="logo">
+      <img class="footer-logo" src="Assets/Shopify Logo.svg" alt="logo">
+      <img class="footer-logo" src="Assets/Spotify Logo.svg" alt="logo">
+      <img class="footer-logo" src="Assets/Walmart Logo.svg" alt="logo">
+    </div>
+  </footer>
+</body>
